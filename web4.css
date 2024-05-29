@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+header {
+    height: 50px;
+}
+
+body {
+
+
+    background-image: url(9873565-fundo-premium-com-linhas-douradas-em-fundo-preto-vetor.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container1 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    font-size: 45px;
+    color: rgb(246, 246, 246);
+    margin: 10px;
+    -webkit-text-stroke: 1px #ecf49f
+}
+
+.second {
+    width: 4500px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 350px;
+    color: aliceblue;
+    justify-content: space-between;
+    -webkit-text-stroke: 1px #eeeebe
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container2 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.text1 {
+    font-size: 70px;
+    color: aliceblue;
+    padding-left: 80px;
+    margin-top: 200px;
+    width: 100px;
+    -webkit-text-stroke: 1px #e1d182;
+    
+    
+}
+
+.text2 {
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+
+.text3 {
+    background-color: chocolate;
+    border-radius: 15px;
+    width: 90px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 150px;
+    margin-top: 20px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   padding: 0.5rem;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+    
+}
+.foto>img {
+    width: 1000px;
+}
